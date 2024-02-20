@@ -5,4 +5,4 @@ To start the project
 2. navigate inside the folder
 3. run the command "npm start"
 it will automatically isntall all the node modules and then first it will start the backend and then front-end .
-got to http://localhost:3000 or else it will open it automatically
+got to http://localhost:3000 or else it will open it automatically in your default browser
