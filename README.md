@@ -1,4 +1,5 @@
 prerequisites : node.js and running mongodb
+
 To start the project 
 1. open the terminal 
 2. navigate inside the folder
