@@ -1,0 +1,19 @@
+{
+  "name": "roxiller-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run install:all && npm run start:all",
+    "install:all": "npm install && cd front-end && npm install && cd ../backend && npm install && cd ..",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd front-end && npm start"
+  },
+  "author": "Ajay Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
